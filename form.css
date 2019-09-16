@@ -3,12 +3,20 @@ body{
 }
 main{
 	display: flex;
+	flex-direction:column;
 	background-color: lightgray;
 	padding: 10px;
 	justify-content: center;
-    align-items: center;
-    height: 550px;
+    	align-items: center;
+    	height: 550px;
 }
+header {
+    font-size: 1.5em;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #36941f6e;
+}
+
 form{
 	font-size: 22px;
 	width: 450px;
